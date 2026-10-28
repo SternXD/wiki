@@ -1,4 +1,4 @@
-# Gets a Boolean value that indicates whether the specified AppXManifest is for an ERA title.
+# Remote OS Update and Recovery API reference
 
 
 **Request**
@@ -34,21 +34,19 @@ if credentials are required to access the network share, the request must contai
 
 - X-SandboxId : the sandbox id to set as part of the recovery. 
 
-###Response
+### Response
 
 **Response body**
 
-- Unknown
+- None
 
 **Status code**
 
-This API has the following expected status codes.
-
-HTTP status code      | Description
-:------     | :-----
-200 | Success
-4XX | Error codes
-5XX | Error codes
+| HTTP status code | Description |
+| :--------------- | :---------- |
+| 200              | Success     |
+| 4XX              | Error codes |
+| 5XX              | Error codes |
 
 
 **Available device families**
